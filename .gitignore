@@ -1,0 +1,20 @@
+*.mat
+*.dat
+*.h5
+*.pyc
+*.depr*
+*.ipynb_checkpoints
+#*.ipynb
+*.pdf
+*.png
+*.egg-info*
+
+#ignore directories by name:
+figures
+notebooks
+
+# ignore specific files:
+*INT2ne.m
+*INTREF2ne.m
+
+# .gitattributes
