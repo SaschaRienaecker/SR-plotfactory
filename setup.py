@@ -6,7 +6,7 @@ setup(
     author='SR',
     author_email='your.email@example.com',
     description='',
-    packages=['plotfactory'],  # Automatically discover and include all packages
+    packages=find_packages(),  # Automatically discover and include all packages
     install_requires=[
         # List the dependencies your package needs
         'numpy',
