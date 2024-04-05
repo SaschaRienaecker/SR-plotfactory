@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='SR-plotfactory',
+    name='plotfactory',
     version='1.0.0',
     author='SR',
     author_email='your.email@example.com',
     description='',
-    packages=find_packages(),  # Automatically discover and include all packages
+    packages=['plotfactory'],  # Automatically discover and include all packages
     install_requires=[
         # List the dependencies your package needs
         'numpy',
