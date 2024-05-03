@@ -2,12 +2,12 @@ text.usetex: True
 font.family: serif
 axes.labelsize: 14
 font.size: 12
-legend.fontsize: 11
+legend.fontsize: 12
 legend.handlelength: 1.5
 legend.frameon: True
 
-xtick.labelsize: 9
-ytick.labelsize: 9
+xtick.labelsize: 11
+ytick.labelsize: 11
 lines.markersize: 6
 lines.linewidth: 1.6
 
