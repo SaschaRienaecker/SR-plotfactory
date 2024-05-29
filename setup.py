@@ -7,6 +7,12 @@ setup(
     author_email='your.email@example.com',
     description='',
     packages=find_packages(),  # Automatically discover and include all packages
+    include_package_data=True,
+    package_data={
+        '': ['*.mplstyle'],
+        # or specify the specific package where the mplstyle files are located
+        # 'your_package_name': ['*.mplstyle']
+    },
     install_requires=[
         # List the dependencies your package needs
         'numpy',
