@@ -1,0 +1,20 @@
+text.usetex: True
+font.family: serif
+axes.labelsize: 20
+axes.grid: True
+grid.linewidth: 0.3 
+font.size: 15
+legend.fontsize: 15
+legend.handlelength: 1.5
+legend.handletextpad: 0.1
+legend.frameon: False
+
+xtick.labelsize: 15
+ytick.labelsize: 15
+lines.markersize: 5.0
+lines.linewidth: 2.0
+
+ytick.direction: in
+xtick.direction: in
+
+savefig.bbox: tight
