@@ -55,11 +55,11 @@ def get_figsize(width='thesis', width_fraction=1, height_fraction=None):
 
     return (fig_width_in, fig_height_in)
 
-def subplots_indexing(axs, hpos=0.5, vpos=1.1, ha='center', va='top', start=0):
+def subplots_indexing(axs, hpos=0.5, vpos=1.1, ha='center', va='top', start=0, **kwargs):
 
     for n, ax in enumerate(axs.flatten()):
         ax.text(hpos, vpos, '({})'.format(string.ascii_lowercase[n + start]), transform=ax.transAxes, ha=ha,
-                va=va)
+                va=va, **kwargs)
         
 
 def join_axes(axs, sharex=True, sharey=True, remove_ticks=True, remove_xlabels=True, remove_ylabels=True):
