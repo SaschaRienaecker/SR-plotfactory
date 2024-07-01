@@ -55,10 +55,13 @@ def get_figsize(width='thesis', width_fraction=1, height_fraction=None):
 
     return (fig_width_in, fig_height_in)
 
-def subplots_indexing(axs, hpos=0.5, vpos=1.1, ha='center', va='top', start=0, **kwargs):
+def subplots_indexing(axs, hpos=0.5, vpos=1.05, ha='center', va='bottom', start=0, style='abcdefg', **kwargs):
 
     for n, ax in enumerate(axs.flatten()):
-        ax.text(hpos, vpos, '({})'.format(string.ascii_lowercase[n + start]), transform=ax.transAxes, ha=ha,
+        
+        symbol = style[n + start]
+        txt = f'({symbol})' #  '({})'.format(string.ascii_lowercase[n + start])
+        ax.text(hpos, vpos, txt, transform=ax.transAxes, ha=ha,
                 va=va, **kwargs)
         
 
