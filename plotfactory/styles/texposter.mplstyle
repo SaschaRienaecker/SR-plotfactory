@@ -1,8 +1,6 @@
 text.usetex: True
 font.family: serif
 axes.labelsize: 20
-axes.grid: True
-grid.linewidth: 0.3 
 font.size: 15
 legend.fontsize: 15
 legend.handlelength: 1.5
@@ -18,3 +16,10 @@ ytick.direction: in
 xtick.direction: in
 
 savefig.bbox: tight
+
+# Grid lines style
+axes.grid: True
+grid.color: lightgrey
+grid.linestyle: -
+grid.linewidth: 0.5
+grid.alpha: 0.8
