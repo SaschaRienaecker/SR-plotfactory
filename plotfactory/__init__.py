@@ -12,4 +12,5 @@ notexposterstyle = Path(definitions.MPLSTYLE_DIR) / 'notexposter.mplstyle'
 from plotfactory.src import plotting
 from plotfactory.src.plotting import join_axes, join_xaxes, join_yaxes
 from plotfactory.styles.mplcolormaps import bipolar_cm
+from plotfactory.styles.styles import set_marker_cycle, set_color_cycle
 # %%

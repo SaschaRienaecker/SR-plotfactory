@@ -6,13 +6,16 @@ legend.fontsize: 12
 legend.handlelength: 1.5
 legend.frameon: True
 
+
+xtick.top: True
+ytick.right: True
 xtick.labelsize: 11
 ytick.labelsize: 11
-lines.markersize: 6
-lines.linewidth: 1.6
-
 ytick.direction: in
 xtick.direction: in
+
+lines.markersize: 6
+lines.linewidth: 1.6
 
 savefig.bbox: tight
 
