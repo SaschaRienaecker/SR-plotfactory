@@ -57,7 +57,9 @@ def get_figsize(width='thesis', width_fraction=1, height_fraction=None):
 
 def subplots_indexing(axs, hpos=0.5, vpos=1.05, ha='center', va='bottom', start=0, style='abcdefg', **kwargs):
 
-    for n, ax in enumerate(axs.flatten()):
+    
+    
+    for n, ax in enumerate(np.asarray(axs).flatten()):
         
         symbol = style[n + start]
         txt = f'({symbol})' #  '({})'.format(string.ascii_lowercase[n + start])
